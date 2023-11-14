@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weeklyMood">Haftalık Modun: </string>
+    <string name="app_name">Mood Chords</string>
+    <string name="login_welcome_to">Hoş Geldiniz, </string>
+    <string name="login_hi">Merhaba,</string>
+    <string name="selfie">Selfie Çek</string>
+    <string name="selfieDesc">Yüzünüzü açıkça gösteren bir özçekim yapın</string>
+    <string name="chord">Müziğinizin keyfini çıkarın</string>
+    <string name="chordDesc">Akorlarınızı alın ve çalın</string>
+    <string name="analyze">Uygulama yüzünüzü analiz eder</string>
+    <string name="analyzeDesc">Duyguları yakalamak için yüz verilerini analiz etme</string>
+    <string name="skip">Atla</string>
+    <string name="search">Ara</string>
+    <string name="favoriteSongs">Favori şarkılar</string>
+    <string name="errorInternetConnection">Lütfen ağ ayarlarınızı kontrol edin</string>
+    <string name="successInternetConnection">Bağlantı başarılı</string>
+    <string name="cameraPermissionDenied">Kamera erişim izni başarılı olamadı</string>
+    <string name="login_welcome">Hoş Geldiniz, </string>
+    <string name="please_check_your_internet_connection_settings">Lütfen ağ ayarlarınızı kontrol edin</string>
+    <string name="generalMood">Genel Modunuz: </string>
+    <string name="profile">Profil</string>
+    <string name="languageTr">Türkçe</string>
+    <string name="signOut">Çıkış</string>
+    <string name="signOutMessage">Çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="switchLangMessage">Uygulama dilini değiştirmek istediğinizden emin misiniz?</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal Et</string>
+    <string name="changeProfilPic">Profil fotoğrafınızı değiştirmek istediğinizden emin misiniz? </string>
+    <string name="changeUserName">Kullanıcı adınızı değiştirmek istediğinizden emin misiniz?</string>
+    <string name="chordsTryAgain">Tekrar Dene</string>
+    <string name="chordsTakeSelfie">Selfie Çek</string>
+    <string name="chordsAddFav">Favorilerime Ekle</string>
+    <string name="chordsRemoveFav">Favorilerimden Çıkar</string>
+    <string name="chordsAddFavSuccess">Parça favorilerinize eklendi</string>
+    <string name="chordsRemoveFavSuccess">Parça favorilerinizden çıkarıldı</string>
+    <string name="there_is_no_favorite_songs">Favorilere eklediğin şarkı yok</string>
+    <string name="chord_emotion">"Duygu kategorisi: "</string>
+
+</resources>

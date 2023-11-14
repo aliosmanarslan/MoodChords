@@ -1,0 +1,164 @@
+[
+  {
+    "songObjectId": 1,
+    "songTitle": "Happy",
+    "singer": "Pharrell Williams",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Pharrell_Williams_-_Happy.jpg/220px-Pharrell_Williams_-_Happy.jpg",
+    "chordsLink": "happy.html"
+  },
+  {
+    "songObjectId": 2,
+    "songTitle": "Wonderwall",
+    "singer": "Oasis",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Wonderwall_cover.jpg",
+    "chordsLink": "wonderwall.html"
+  },
+  {
+    "songObjectId": 3,
+    "songTitle": "All of Me",
+    "singer": "John Legend",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/John_Legend_-_Stereo.jpg/220px-John_Legend_-_Stereo.jpg",
+    "chordsLink": "all_of_me.html"
+  },
+  {
+    "songObjectId": 4,
+    "songTitle": "Zombie",
+    "singer": "The Cranberries",
+    "emotionCategory": "angry",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/tr/1/16/The_Cranberries_-_Zombie.jpg",
+    "chordsLink": "zombie.html"
+  },
+  {
+    "songObjectId": 5,
+    "songTitle": "Point Of Disgust",
+    "singer": "Low",
+    "emotionCategory": "disgust",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Low_Trust.jpg/220px-Low_Trust.jpg",
+    "chordsLink": "point_of_disgust.html"
+  },
+  {
+    "songObjectId": 6,
+    "songTitle": "Mad World",
+    "singer": "Gary Jules",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/20/TFF_Mad_World.jpg",
+    "chordsLink": "mad_world.html"
+  },
+  {
+    "songObjectId": 7,
+    "songTitle": "Fear Of The Dark",
+    "singer": "Iron Maiden",
+    "emotionCategory": "fear",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/tr/b/bb/IronMaiden-FearOfTheDark.jpg",
+    "chordsLink": "fear_of_the_dark.html"
+  },
+  {
+    "songObjectId": 8,
+    "songTitle": "It Took Me By Surprise",
+    "singer": "Maria Mena",
+    "emotionCategory": "surprise",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Viktoria2011.jpg/220px-Viktoria2011.jpg",
+    "chordsLink": "it_took_me_by_surprise.html"
+  },
+  {
+    "songObjectId": 9,
+    "songTitle": "Price Tag",
+    "singer": "Jessie J",
+    "emotionCategory": "neutral",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/tr/2/27/PriceTag-JessieJ.jpg",
+    "chordsLink": "price_tag.html"
+  },
+  {
+    "songObjectId": 10,
+    "songTitle": "Spirit Bird",
+    "singer": "Xavier Rudd",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Spirit_Bird_by_Xavier_Rudd.jpg",
+    "chordsLink": "spirit_bird.html"
+  },
+  {
+    "songObjectId": 11,
+    "songTitle": "DANCE MONKEY",
+    "singer": "TONES AND I",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dance_Monkey_by_Tones_and_I.jpg",
+    "chordsLink": "dance_monkey.html"
+  },
+  {
+    "songObjectId": 12,
+    "songTitle": "Hotel California",
+    "singer": "Eagles",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/tr/2/2a/Hotel_California_Tekli_Plak_kapak.jpg",
+    "chordsLink": "hotel_california.html"
+  },
+  {
+    "songObjectId": 13,
+    "songTitle": "Impossible",
+    "singer": "James Arthur",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/James_Arthur_-_Impossible.png/220px-James_Arthur_-_Impossible.png",
+    "chordsLink": "impossible.html"
+  },
+  {
+    "songObjectId": 14,
+    "songTitle": "Nothing Else Matters",
+    "singer": "Metallica",
+    "emotionCategory": "neutral",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Metallica_-_Nothing_Else_Matters_%28live%29_cover.jpg/220px-Metallica_-_Nothing_Else_Matters_%28live%29_cover.jpg",
+    "chordsLink": "nothing_else_matters.html"
+  },
+  {
+    "songObjectId": 15,
+    "songTitle": "Sad but True",
+    "singer": "Metallica",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Metallica_-_Sad_but_True_cover.jpg/220px-Metallica_-_Sad_but_True_cover.jpg",
+    "chordsLink": "sad_but_true.html"
+  },
+  {
+    "songObjectId": 16,
+    "songTitle": "She's Gone",
+    "singer": "Steelheart",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Image-Steelheart_Self-Titled.jpg",
+    "chordsLink": "shes_gone.html"
+  },
+  {
+    "songObjectId": 17,
+    "songTitle": "Soldier of Fortune",
+    "singer": "Deep Purple",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/DeepPurpleStormbringer.jpg/220px-DeepPurpleStormbringer.jpg",
+    "chordsLink": "soldier_of_fortune.html"
+  },
+  {
+    "songObjectId": 18,
+    "songTitle": "Stairway to Heaven",
+    "singer": "Led Zeppelin",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Stairway_to_Heaven_by_Led_Zeppelin_US_promotional_single.png",
+    "chordsLink": "stairway_to_heaven.html"
+  },
+  {
+    "songObjectId": 19,
+    "songTitle": "Thunderstruck",
+    "singer": "AC/DC",
+    "emotionCategory": "smiling",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/ACDC-Thunderstruck.png",
+    "chordsLink": "thunderstruck.html"
+  },
+  {
+    "songObjectId": 20,
+    "songTitle": "Still Got The Blues",
+    "singer": "Gary Moore",
+    "emotionCategory": "sad",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/tr/3/3f/Still_Got_the_Blues.jpg",
+    "chordsLink": "still_god_the_blues.html"
+  }
+]
+
+ 

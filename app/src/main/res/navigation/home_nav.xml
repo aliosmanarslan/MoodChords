@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.unlimited.moodchordshero.ui.home.view.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chordsFragment"
+            app:destination="@id/chordsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.unlimited.moodchordshero.ui.profile.view.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chordsFragment"
+        android:name="com.unlimited.moodchordshero.ui.chords.view.ChordsFragment"
+        android:label="chords_fragment"
+        tools:layout="@layout/chords_fragment" >
+        <action
+            android:id="@+id/action_chordsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="songObject"
+            app:argType="com.unlimited.moodchordshero.data.models.song.Song"
+            app:nullable="true" />
+        <argument
+            android:name="emotion"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

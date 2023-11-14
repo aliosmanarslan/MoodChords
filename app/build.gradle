@@ -1,0 +1,172 @@
+plugins {
+    id "org.sonarqube" version "3.0"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "MoodChords" // Don’t use space character.
+        property "sonar.projectName", "MoodChords" //web UI name
+        property "sonar.login", "c68efcffd75382192178f483b253ada31bf5ce39" //coming from before 1.2 step
+        property "sonar.host.url", "http://10.216.72.212:9000"
+        property "sonar.projectVersion", android.defaultConfig.versionName
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: "androidx.navigation.safeargs"
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.huawei.agconnect'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.unlimited.moodchordshero"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.6"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            try {
+                keyAlias KEYSTORE_ALIAS
+                keyPassword KEY_PASSWORD
+                storeFile file("$rootDir/docs/moodchords.jks")
+                storePassword KEYSTORE_PASSWORD
+            } catch (Exception ignored) {
+                throw new InvalidUserDataException("You should define KEYSTORE_PASSWORD and KEY_PASSWORD in gradle.properties.")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildFeatures{
+        dataBinding = true
+    }
+
+    kotlinOptions {
+        // work-runtime-ktx 2.1.0 and above now requires Java 8
+        jvmTarget = "1.8"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+def glide_version = '4.9.0'
+def hilt_version = "2.28-alpha"
+def lifecycle_version = "2.2.0"
+def moshi_version = "1.9.3"
+def nav_version = "2.3.0"
+def preferences_version = '1.1.1'
+def room_version = '2.2.5'
+def support_version = '28.0.0'
+def work_version = "2.4.0"
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation "androidx.viewpager2:viewpager2:1.0.0-alpha05"
+
+    // Annotation processor
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+    // Design
+    implementation "com.android.support:palette-v7:$support_version"
+    implementation "com.android.support:design:$support_version"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+
+    // Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation 'androidx.hilt:hilt-work:1.0.0-alpha01'
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha01'
+    testImplementation "com.google.dagger:hilt-android-testing:$hilt_version"
+    kaptTest "com.google.dagger:hilt-android-compiler:$hilt_version"
+    androidTestImplementation  "com.google.dagger:hilt-android-testing:$hilt_version"
+    kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    // Moshi
+    implementation("com.squareup.moshi:moshi:$moshi_version")
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshi_version"
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Pref
+    implementation "androidx.preference:preference-ktx:$preferences_version"
+
+    // Recycler
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    // RoomDB
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
+    // WorkManager
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+
+    // Hms Account SDK
+    implementation 'com.huawei.hms:hwid:5.0.3.301'
+
+    // Import the base SDK.
+    implementation 'com.huawei.hms:ml-computer-vision-face:2.0.1.300'
+
+    // Import the contour and key point detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.1.300'
+
+    // Import the facial expression detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.1.300'
+
+    // Import the facial feature detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-feature-model:2.0.1.300'
+
+}
+
+kapt {
+    correctErrorTypes true
+    generateStubs = true
+}

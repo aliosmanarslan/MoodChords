@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Mood Chords</string>
+    <string name="login_welcome_to">Welcome To</string>
+    <string name="login_hi">Hi,</string>
+    <string name="selfie">Take a Selfie</string>
+    <string name="selfieDesc">Take a selfie with shows your face clearly</string>
+    <string name="chord">Enjoy your music</string>
+    <string name="chordDesc"> Get your chords and play</string>
+    <string name="analyze">App analyses your face</string>
+    <string name="analyzeDesc"> Analyzing face data to catch emotion</string>
+    <string name="skip">Skip</string>
+    <string name="search">Search</string>
+    <string name="favoriteSongs">Favorites Songs</string>
+    <string name="errorInternetConnection">Please check your network settings</string>
+    <string name="successInternetConnection">The connection is success</string>
+    <string name="cameraPermissionDenied">Camera permission denied</string>
+    <string name="login_welcome">Welcome, </string>
+    <string name="please_check_your_internet_connection_settings">Please check your internet connection settings</string>
+    <string name="weeklyMood">Your weekly mood:</string>
+    <string name="generalMood">Your General Mood:</string>
+    <string name="profile">Profile</string>
+    <string name="languageTr">Turkish</string>
+    <string name="signOut">Sign Out</string>
+    <string name="signOutMessage">Are you sure you want to sign out?</string>
+    <string name="switchLangMessage">Are you sure you want to change app language?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="changeProfilPic">Are you sure you want to change profile picture?</string>
+    <string name="changeUserName">Are you sure you want to change username?</string>
+    <string name="chordsTryAgain">Try Again</string>
+    <string name="chordsTakeSelfie">Take Selfie</string>
+    <string name="chordsAddFav">Add to Favourites</string>
+    <string name="chordsRemoveFav">Remove from Favourites</string>
+    <string name="chordsAddFavSuccess">The song added your favourites</string>
+    <string name="chordsRemoveFavSuccess">The song removed your favourites</string>
+    <string name="there_is_no_favorite_songs">There is no favorite songs</string>
+    <string name="chord_emotion">"Emotion category: "</string>
+
+</resources>

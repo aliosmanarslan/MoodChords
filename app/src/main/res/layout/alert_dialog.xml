@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alertdialog_bg"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:id="@+id/titleAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14sp"
+            tools:text="Title" />
+
+        <TextView
+            android:textColor="@color/textGray"
+            android:id="@+id/messageAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
+            tools:text="Message of alert dialog" />
+
+        <EditText
+            android:textColor="@color/textGray"
+            android:id="@+id/editTextAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg_with_radius"
+            android:padding="15sp"
+            android:textSize="13sp"
+            tools:text="Type here.."/>
+
+        <Button
+            android:id="@+id/positiveBtnAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/alert_positive_button_bg"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="@color/positiveBtnColor"
+            android:textColor="@color/white"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/customBtnAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/alert_custom_button_bg"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:outlineAmbientShadowColor="@color/red_300"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/negativeBtnAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/alert_negative_button_bg"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:outlineAmbientShadowColor="@color/negativeBtnColor" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

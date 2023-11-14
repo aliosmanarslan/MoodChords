@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+.idea
+
+# Keystore files
+*.jks
+*.keystore
+
+
+# AG Services (e.g. APIs)
+agconnect-services.json
+app/agconnect-services.json
+
+# Gradle
+gradle.properties
